@@ -8,15 +8,15 @@ Given a news headline (or a pair of words), HumorKG retrieves related concepts f
 ## Repository layout                                      
 
 humorkg/
-  backends.py        LLM clients: Groq, Together, Anthropic, HF local
-  kg.py              KG retrievers: NoKG / WordNetKG / ConceptNetKG                                                                                                                                   
-  prompts.py         Localized prompt templates (EN/ES/ZH)                                                                                                                                            
-  runner.py          Generation loop with .partial resume                                                                                                                                             
-  judge.py           Rubric-based LLM-as-judge scorer                                                                                                                                                                                                                                                                                                                                                                                                                            
+backends.py        LLM clients: Groq, Together, Anthropic, HF local
+kg.py              KG retrievers: NoKG / WordNetKG / ConceptNetKG                                                                                                                                   
+prompts.py         Localized prompt templates (EN/ES/ZH)                                                                                                                                            
+runner.py          Generation loop with .partial resume                                                                                                                                             
+judge.py           Rubric-based LLM-as-judge scorer                                                                                                                                                                                                                                                                                                                                                                                                                            
                                                             
 ## Setup                                                                                                                                                                                              
                                                             
-  Python 3.9+ recommended.                                                                                                                                                                              
+Python 3.9+ recommended.                                                                                                                                                                              
    
   ```bash                                                                                                                                                                                               
   git clone https://github.com/yasaminaali/HumorKG.git      
