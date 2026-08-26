@@ -7,6 +7,7 @@ Given a news headline (or a pair of words), HumorKG retrieves related concepts f
 
 humorkg/
 backends.py        LLM clients: Groq, Together, Anthropic, HF local
+
 kg.py              KG retrievers: NoKG / WordNetKG / ConceptNetKG                                                                                                                                   
 prompts.py         Localized prompt templates (EN/ES/ZH)                                                                                                                                            
 runner.py          Generation loop with .partial resume                                                                                                                                             
